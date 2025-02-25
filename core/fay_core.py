@@ -29,6 +29,7 @@ from llm import nlp_lingju
 from llm import nlp_xingchen
 from llm import nlp_ollama_api
 from llm import nlp_coze
+from llm import nlp_dify
 from llm.agent import fay_agent
 from llm import nlp_qingliu
 from llm import nlp_gpt_stream
@@ -65,6 +66,7 @@ modules = {
     "nlp_xingchen": nlp_xingchen,
     "nlp_ollama_api": nlp_ollama_api,
     "nlp_coze": nlp_coze,
+    "nlp_dify": nlp_dify,
     "nlp_agent": fay_agent,
     "nlp_qingliu": nlp_qingliu,
     "nlp_gpt_stream": nlp_gpt_stream
